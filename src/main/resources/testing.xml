@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<suite name="Forms Test Suite">
-    <test name="AuthorizationTests">
-        <classes>
-            <class name="org.example.tests.AuthorizationTests"/>
-        </classes>
-    </test>
-</suite>

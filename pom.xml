@@ -36,6 +36,14 @@
             <version>2.0.16</version>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.16.0</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
@@ -46,7 +54,8 @@
                 <version>3.5.0</version>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/all.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/auth.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

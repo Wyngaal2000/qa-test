@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="All Test">
+    <test name="ChromeAuthorizationTests">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="org.example.tests.AuthorizationTests"/>
+        </classes>
+    </test>
+    <test name="EdgeAuthorizationTests">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="org.example.tests.AuthorizationTests"/>
+        </classes>
+    </test>
+</suite>
