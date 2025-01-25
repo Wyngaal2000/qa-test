@@ -56,6 +56,7 @@
                     <suiteXmlFiles>
                         <suiteXmlFile>src/main/resources/all.xml</suiteXmlFile>
                         <suiteXmlFile>src/main/resources/auth.xml</suiteXmlFile>
+                        <suiteXmlFile>src/main/resources/form.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>

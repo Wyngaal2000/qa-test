@@ -12,4 +12,16 @@
             <class name="org.example.tests.AuthorizationTests"/>
         </classes>
     </test>
+    <test name="ChromeFormTests">
+        <parameter name="browser" value="chrome" />
+        <classes>
+            <class name="org.example.tests.FormTests"/>
+        </classes>
+    </test>
+    <test name="EdgeFormTests">
+        <parameter name="browser" value="edge" />
+        <classes>
+            <class name="org.example.tests.FormTests"/>
+        </classes>
+    </test>
 </suite>
