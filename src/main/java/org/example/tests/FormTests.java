@@ -315,7 +315,7 @@ public class FormTests {
         };
     }
 
-    @Test(description = "Позитивка 1 отет в первом вопросе", dataProvider = "secondFormData")
+    @Test(description = "Позитивка 1 отет во втором вопросе", dataProvider = "secondFormData")
     public void testSubmitFormSecondChoice(String checkboxId, String expectedSecondChoice) {
         String email = RandomStringUtils.randomAlphanumeric(8) + "@domain.com";
         String name = RandomStringUtils.randomAlphanumeric(8);
